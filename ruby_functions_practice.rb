@@ -51,3 +51,16 @@ def number_to_short_month_name(num)
     p "Oct"
   end
 end
+#
+def volume_of_cube(length)
+  return length ** 3
+end
+
+def volume_of_sphere(radius)
+  x = ( Math::PI / 3.0 ) * 4
+  return x * ( radius ** 3)
+end
+#
+def fahrenheit_to_celsius(temp)
+  return temp - 32  
+end
